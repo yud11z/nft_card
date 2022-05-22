@@ -137,3 +137,15 @@ span {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
+
+.footer {
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: hsl(198, 100%, 98%);
+}
+
+.attribution a {
+  color: hsl(178, 100%, 50%);
+}
