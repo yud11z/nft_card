@@ -46,6 +46,11 @@ body {
     display: none;
 } 
 
+/* .image-overlay:hover {
+    display: block;
+    cursor: pointer;
+} */
+
 .image-overlay img {
     position: absolute;
     width: 50px;
@@ -55,6 +60,7 @@ body {
 }
 
 .image-top:hover .image-overlay{
+    display: block;
     cursor: pointer;
 }
 
