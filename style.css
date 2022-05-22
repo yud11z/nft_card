@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 25px;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+
+}
+
+.image-top {
+   position: relative;
+   overflow: hidden;
+}
+
+.image-top img {
+    width: 100%;
+    display: block; 
+    border-radius: 0.5em;
+}
+
+.image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    display: none;
+} 
+
+.image-overlay img {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-top:hover .image-overlay{
+    cursor: pointer;
+}
+
+.box-text {
+    color: white;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 8px 0 0;
+}
+
+.box-text h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.text {
+    font-size: 16px;
+    color: hsla(215, 51%, 70%, 0.6);
+    font-weight: 200;
+    line-height: 1.6em;
+}
+
+.desc {
+    display: flex;
+    justify-content:space-between;
+}
+
+.eth, .day {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.text2 {
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    padding-left: 7px;
+}
+
+.text3 {
+    padding-left: 7px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    border-color: hsl(215, 25%, 10%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 25px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.text4 {
+    color: hsla(215, 51%, 70%, 0.7);
+    font-size: 15px;
+}
+
+span {
+    color: hsl(0, 0%, 100%, 0.7);
+    font-weight: 300;
+}
+
+.author span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
